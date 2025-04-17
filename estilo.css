@@ -321,3 +321,23 @@ html, body {
     text-align: center;
     flex: 1;
   }
+
+   .destaque h3 {
+    font-size: 1.1em;
+    margin-top: 0;
+    padding: 20px 10px;
+  }
+
+  .botao-comprar,
+  .botao-whatsapp {
+    margin: 20px auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+
+  .carrossel-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
