@@ -80,11 +80,11 @@ body {
 
 /* Contêiner de todos os cards */
 .cards-list {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Isso pode ser ajustado via media query */
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 /* Card individual */
