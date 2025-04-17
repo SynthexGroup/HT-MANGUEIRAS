@@ -322,7 +322,7 @@ html, body {
     flex: 1;
   }
 
-   .destaque h3 {
+ .destaque h3 {
     font-size: 1.1em;
     margin-top: 0;
     padding: 20px 10px;
@@ -330,10 +330,9 @@ html, body {
 
   .botao-comprar,
   .botao-whatsapp {
-    margin: 20px auto;
-    display: block;
-    width: 80%;
-    text-align: center;
+    margin: 0;
+    display: inline-block;
+    width: auto;
   }
 
   .carrossel-container {
