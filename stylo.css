@@ -122,11 +122,10 @@ body {
 
 /* Título do card */
 .card h3 {
-  font-size: clamp(0.8rem, 1vw + 0.2rem, 1rem);
-    margin-bottom: 5px;
-      word-wrap: break-word;
-  overflow-wrap: break-word;
-  text-align: center; /* garante centralização legal */
+  font-size: clamp(0.8rem, 1vw + 0.2rem, 1.1rem);
+  line-height: 1.2; /* dá mais espaço entre linhas */
+  max-width: 100%;
+  word-break: break-word;
 }
 
 /* Descrição do card */
