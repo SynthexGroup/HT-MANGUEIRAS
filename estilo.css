@@ -323,19 +323,16 @@ html, body {
   }
 
 
-   .destaque h3 {
-    font-size: 1.1em;
-    margin-top: 0;
-    padding: 20px 10px;
-  }
-
-  .botao-comprar,
-  .botao-whatsapp {
-    margin: 0 auto; 
-    display: inline-block;
-    width: auto;
-    float: none;
-  }
+.texto-destaque {
+  display: flex;
+  flex-direction: row; /* muda de coluna para linha */
+  align-items: center; /* alinha verticalmente */
+  justify-content: center; /* centraliza na horizontal */
+  gap: 20px;
+  flex: 1;
+  flex-wrap: wrap;
+  text-align: center;
+}
 
 .carrossel-container {
   flex-wrap: nowrap;
