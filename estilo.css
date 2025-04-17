@@ -310,17 +310,18 @@ html, body {
                 flex-wrap: wrap;
                 padding: 15px;
                 text-align: center;
+              width: 30%
             }
 
             .logo-ht, .tigre {
-                width: 100px;
+              width: 30%
                 height: auto;
                 margin: 0;
             }
 
             .container h1 {
                 font-size: 1.2em;
-                width: 100%;
+              width: 30%
                 margin: 10px 0;
             }
         }
