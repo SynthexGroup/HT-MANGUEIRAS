@@ -3,10 +3,10 @@ body {
   padding: 0;
   min-height: 100vh;
   background-image: url("img/background.png");
-  background-size: 100% 100%; /* força a imagem a cobrir toda a tela */
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: rgba(0, 0, 0, 0.3); /* camada escura */
+  background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   font-family: Arial, sans-serif;
 }
@@ -17,67 +17,59 @@ body {
   justify-content: center;
   gap: 20px;
   text-align: center;
-    
-
-    background-image: url("img/background.png");
-    background-size: cover; /* estica a imagem completamente */
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    border-bottom: #f4f4f4 solid 5px;
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: #f4f4f4 solid 5px;
 }
 
 .logo-ht {
-    width: 250px; /* ou o tamanho que quiser */
-    height: auto;
-    margin-left: 35px;
+  width: 250px;
+  height: auto;
+  margin-left: 35px;
 }
 
 .tigre {
-    width: 150px;
-    height: auto;
-    margin-right: 30px;
+  width: 150px;
+  height: auto;
+  margin-right: 30px;
 }
 
 .container h1 {
-    font-weight: bold;
-    font-size: 3em;
-    color: #ffffff;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
-    text-align: center;
-    flex: 1;
-    margin-top: 100px;
+  font-weight: bold;
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
+  text-align: center;
+  flex: 1;
+  margin-top: 100px;
 }
 
 .img1 {
-    width: 100%;
-    max-width: 600px; /* Limita o tamanho da imagem para permitir espaço ao texto */
-    height: auto;
-    margin-top: -20px;
-    margin-left: -20px;
-    flex-wrap: wrap;
-justify-content: center;
-gap: 20px;
-text-align: center;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin-top: -20px;
+  margin-left: -20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-
-
-h2{
-    text-align: center;
-    border-bottom: rgb(255, 255, 255) solid 2px ;
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255),rgb(0, 45, 114), rgb(0, 45, 114), rgb(0, 45, 114));
-    margin-top: -5px;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
-
+h2 {
+  text-align: center;
+  border-bottom: rgb(255, 255, 255) solid 2px;
+  background-image: linear-gradient(to right, white, white, #002d72, #002d72, #002d72);
+  margin-top: -5px;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
 }
-
 
 .navbar {
   background-image: url("img/back2.png");
-  background-repeat: repeat-x; /* ou no-repeat, se quiser fixo */
-  background-size: cover; /* ou '100% auto' para esticar horizontalmente */
+  background-repeat: repeat-x;
+  background-size: cover;
   width: 100%;
   padding: 10px;
   text-align: center;
@@ -87,113 +79,92 @@ h2{
 }
 
 .navbar a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    margin: 0 15px;
-    font-size: 18px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 18px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
 }
 
 .navbar a:hover {
-    color: #4289d4; /* Muda a cor ao passar o mouse */
+  color: #4289d4;
 }
-
-
 
 .destaque {
-    display: flex;
-    align-items: center; /* Alinha verticalmente */
-    gap: 20px; /* Espaço entre a imagem e o texto */
-    padding: 20px;
-    flex-wrap: wrap; /* Faz quebrar em telas pequenas */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
 }
-
 
 .destaque h3 {
-    font-size: 1.4rem;
-    color: #333;
-    flex: 1;
-    text-align: center;
-    margin-top: -120px;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
-    border:  2px solid white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-image: url("img/back2.png");
-  
+  font-size: 1.4rem;
+  flex: 1;
+  text-align: center;
+  margin-top: -120px;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
+  border: 2px solid white;
+  padding: 50px 10px;
+  background-image: url("img/back2.png");
 }
-
-.img1 {
-  width: 100%;
-  max-width: 450px;
-  height: auto;
-  margin-top: -20px;
-  margin-left: -20px;
-  border: 2px solid white; /* 👈 borda branca */
-  border-radius: 10px;      /* opcional: deixa as bordas arredondadas */
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5); /* opcional: sombra legal */
-}
-
-
 
 .texto-destaque {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex: 1; /* ESSENCIAL para ela ocupar espaço ao lado da imagem */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
 }
 
 .botao-comprar {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgb(0, 45, 114);
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    width: fit-content;
-    margin-left: 290px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #002d72;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+  margin-left: 290px;
 }
 
 .botao-comprar:hover {
-    background-color: #42d44e;
+  background-color: #42d44e;
 }
 
-.promoção h3{
+.promoção h3 {
   background-image: url("img/back2.png");
-  background-repeat: repeat-x; /* ou no-repeat, se quiser fixo */
-  background-size: cover; /* ou '100% auto' para esticar horizontalmente */
+  background-repeat: repeat-x;
+  background-size: cover;
   width: 100%;
   padding: 10px;
   border-top: white solid 1px;
   border-bottom: white solid 1px;
-    text-align: center;
-    color: rgb(229, 233, 0);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
-    font-size: 2em;
-    font-weight: bold;
+  text-align: center;
+  color: #e5e900;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
+  font-size: 2em;
+  font-weight: bold;
 }
 
-.maps{
-    text-align: center;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
-    font-size: 2em;
-    border-top: 2px solid white;
-    color: rgb(255, 255, 255);
-    background-image: url(img/background.png);
-    border: 4px solid rgb(255, 255, 255);
+.maps {
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
+  font-size: 2em;
+  border-top: 2px solid white;
+  color: white;
+  background-image: url("img/background.png");
+  border: 4px solid white;
 }
 
-.maps h3{
-    border-bottom: 2px dashed white;
-    margin-top: 8px;
-
+.maps h3 {
+  border-bottom: 2px dashed white;
+  margin-top: 8px;
 }
-
-
 
 .carrossel-container {
   display: flex;
@@ -203,7 +174,7 @@ h2{
 }
 
 .carrossel {
-  flex: 1 1 250px; /* ou 300px */
+  flex: 1 1 250px;
   min-width: 150px;
   max-width: 200px;
   margin: 0 5px;
@@ -212,75 +183,70 @@ h2{
 
 .prev, .next {
   display: none;
-}  
+}
 
-  .imagem {
-    display: none;
-    width: 100%;
-  }
-  
-  .imagem img {
-    width: 100%;
-    display: block;
-  }
-  
-  button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 18px;
-    cursor: pointer;
-    z-index: 1;
-  }
-  
-  .prev {
-    left: 10px;
-  }
-  
-  .next {
-    right: 10px;
-  }
-  
-  button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
+.imagem {
+  display: none;
+  width: 100%;
+}
 
+.imagem img {
+  width: 100%;
+  display: block;
+}
 
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1;
+}
 
+.prev {
+  left: 10px;
+}
 
+.next {
+  right: 10px;
+}
 
-  .botao-whatsapp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 12px 20px;
-    background-color: #25d366;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    width: fit-content;
-    margin-left: 290px;
-    transition: background-color 0.3s ease;
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.botao-whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background-color: #25d366;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: 290px;
+  transition: background-color 0.3s ease;
 }
 
 .botao-whatsapp:hover {
-    background-color: #1ebc59;
+  background-color: #1ebc59;
 }
 
 .icone-whatsapp {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
-
 .lojas-container {
-  background-image: url(img/background.png);
+  background-image: url("img/background.png");
   background-size: cover;
   background-position: center;
   padding: 40px 20px;
@@ -329,26 +295,12 @@ h2{
   text-shadow: 2px 2px 4px black;
 }
 
-/* Responsivo */
-@media (max-width: 768px) {
-  .lojas-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .loja-card iframe {
-    height: 250px;
-  }
-}
-
-
 html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-
-
+/* RESPONSIVO */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -364,7 +316,7 @@ html, body {
 
   .container h1 {
     font-size: 1.6em;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .img1 {
@@ -382,6 +334,12 @@ html, body {
   .botao-comprar {
     margin-left: 0;
     align-self: center;
+    margin: 10px auto;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
   }
 
   .navbar a {
@@ -396,5 +354,14 @@ html, body {
 
   .maps {
     font-size: 1.3em;
+  }
+
+  .lojas-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .loja-card iframe {
+    height: 250px;
   }
 }
