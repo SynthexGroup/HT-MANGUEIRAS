@@ -222,17 +222,16 @@ body {
     flex: 1;
   }
 
-.cards-list {
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-}
+  .cards-list {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
 
   .card {
     width: 90%;
-    margin: 10px 0;
+    margin: 10px auto;
   }
 
   #searchInput {
     width: 80%;
   }
 }
-
