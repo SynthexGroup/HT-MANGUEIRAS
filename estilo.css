@@ -15,6 +15,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   gap: 20px;
   text-align: center;
   border-bottom: #f4f4f4 solid 5px;
