@@ -222,11 +222,9 @@ body {
     flex: 1;
   }
 
-
-  .cards-list {
-    flex-direction: column;
-    align-items: center;
-  }
+.cards-list {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
 
   .card {
     width: 90%;
