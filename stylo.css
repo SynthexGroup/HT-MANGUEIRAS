@@ -201,3 +201,16 @@ body {
     border-color: #1d4ed8;
     box-shadow: 0 0 10px #1d4ed8;
 }
+
+
+@media (max-width: 768px) {
+  .cards-list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .card {
+    flex: 0 0 auto;
+  }
+}
