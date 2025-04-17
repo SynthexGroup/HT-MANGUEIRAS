@@ -205,20 +205,26 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
   }
 
   .logo-ht,
   .tigre {
-    width: 120px;
-    margin: 10px auto;
+    width: 70px;
+    height: auto;
   }
 
   .container h1 {
-    font-size: 1.5em;
-    margin: 10px 0;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    flex: 1;
   }
+
 
   .cards-list {
     flex-direction: column;
