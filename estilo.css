@@ -340,3 +340,14 @@ html, body {
     align-items: center;
   }
 }
+
+
+  .lojas-grid {
+    flex-wrap: nowrap; /* força ficar lado a lado */
+    overflow-x: auto;   /* permite scroll horizontal se necessário */
+  }
+
+  .loja-card {
+    flex: 0 0 90%;       /* ajusta o tamanho dos cards */
+    max-width: 90%;
+  }
