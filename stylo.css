@@ -80,10 +80,10 @@ body {
 
 /* Contêiner de todos os cards */
 .cards-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  padding: 20px;
 }
 
 /* Card individual */
