@@ -122,7 +122,7 @@ body {
 
 /* Título do card */
 .card h3 {
-    font-size: 1.2em;
+  font-size: clamp(0.8rem, 1vw + 0.2rem, 1rem);
     margin-bottom: 5px;
       word-wrap: break-word;
   overflow-wrap: break-word;
@@ -131,7 +131,7 @@ body {
 
 /* Descrição do card */
 .card p {
-    font-size: 0.9em;
+  font-size: clamp(0.8rem, 1vw + 0.2rem, 1rem);
     margin-bottom: 5px;
       word-wrap: break-word;
   overflow-wrap: break-word;
@@ -140,6 +140,7 @@ body {
 
 /* Preço do card */
 .card span {
+      font-size: clamp(0.8rem, 1vw + 0.2rem, 1rem);
     font-weight: bold;
     color: #1e40af;
 }
