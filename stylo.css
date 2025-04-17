@@ -124,12 +124,18 @@ body {
 .card h3 {
     font-size: 1.2em;
     margin-bottom: 5px;
+      word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center; /* garante centralização legal */
 }
 
 /* Descrição do card */
 .card p {
     font-size: 0.9em;
     margin-bottom: 5px;
+      word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center; /* garante centralização legal */
 }
 
 /* Preço do card */
