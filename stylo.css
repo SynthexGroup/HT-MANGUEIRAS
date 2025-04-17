@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("img/background.png");
+    background-size: 100% 100%; /* força a imagem a cobrir toda a tela */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.3); /* camada escura */
+    background-blend-mode: multiply;
+    font-family: Arial, sans-serif;
+  }
+
+
+  .container {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+  
+      background-image: url("img/background.png");
+      background-size: cover; /* estica a imagem completamente */
+      background-repeat: no-repeat;
+      background-position: center center;
+  
+      border-bottom: #f4f4f4 solid 5px;
+  }
+  
+
+.logo-ht {
+    width: 250px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.tigre {
+    width: 150px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
+    text-align: center;
+    flex: 1;
+}
+
+.img1 {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.navbar {
+    background-color: rgb(107, 126, 155);
+    padding: 10px;
+    text-align: center;
+    margin-top: -5px;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 18px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.945);
+}
+
+.navbar a:hover {
+    color: #4289d4;
+}
+
+/* Contêiner de todos os cards */
+.cards-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card individual */
+.card {
+    background-color: white;
+    width: 180px;
+    min-height: 300px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Imagem do card */
+.card img {
+    width: 90%;       /* menor que 100% */
+    height: 110px;    /* um pouco menor */
+    object-fit: contain;
+    margin: 10px auto 0 auto; /* centraliza horizontalmente e dá espaço no topo */
+    border-radius: 8px;
+}
+
+
+/* Container de conteúdo do card */
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Título do card */
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* Descrição do card */
+.card p {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+/* Preço do card */
+.card span {
+    font-weight: bold;
+    color: #1e40af;
+}
+
+/* Estilo do botão */
+.card button {
+    background-color: #2563eb;
+    height: 35px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* Efeito ao passar o mouse no card */
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.btn-comprar {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #0056b3;
+}
+
+
+.search-container {
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid #2563eb;
+    font-size: 1em;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #1d4ed8;
+    box-shadow: 0 0 10px #1d4ed8;
+}
