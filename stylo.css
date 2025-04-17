@@ -80,25 +80,24 @@ body {
 
 /* Contêiner de todos os cards */
 .cards-list {
-  display: flex;
-  flex-wrap: wrap; /* Isso pode ser ajustado via media query */
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
 /* Card individual */
 .card {
     background-color: white;
-    width: 180px;
-    min-height: 300px;
     border-radius: 12px;
-    box-shadow: 4px 4px 12px black;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    margin-left: 20px;
+    padding: 15px;
+    min-height: 300px;
     transition: transform 0.3s ease;
+    width: 100%; /* Ocupa 100% do espaço do grid */
+    box-sizing: border-box;
 }
 
 /* Imagem do card */
