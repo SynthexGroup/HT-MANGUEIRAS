@@ -204,12 +204,36 @@ body {
 
 
 @media (max-width: 768px) {
-  .cards-list {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+  .container {
+    flex-direction: column;
+    text-align: center;
   }
 
+  .logo-ht,
+  .tigre {
+    width: 120px;
+    margin: 10px auto;
+  }
+
+  .container h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  .cards-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  #searchInput {
+    width: 80%;
+  }
+}
   .card {
     flex: 0 0 auto;
   }
