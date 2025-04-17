@@ -321,7 +321,9 @@ html, body {
     text-align: center;
     flex: 1;
   }
-  .destaque h3 {
+
+
+   .destaque h3 {
     font-size: 1.1em;
     margin-top: 0;
     padding: 20px 10px;
@@ -339,15 +341,14 @@ html, body {
     flex-direction: column;
     align-items: center;
   }
-}
-
 
   .lojas-grid {
-    flex-wrap: nowrap; /* força ficar lado a lado */
-    overflow-x: auto;   /* permite scroll horizontal se necessário */
+    flex-wrap: nowrap;   /* força os cards ficarem lado a lado */
+    overflow-x: auto;     /* ativa scroll lateral se precisar */
   }
 
   .loja-card {
-    flex: 0 0 90%;       /* ajusta o tamanho dos cards */
+    flex: 0 0 90%;        /* tamanho dos cards no celular */
     max-width: 90%;
   }
+
