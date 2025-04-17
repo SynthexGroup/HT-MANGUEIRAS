@@ -350,43 +350,51 @@ html, body {
 
 
 @media (max-width: 768px) {
-
   .container {
     flex-direction: column;
     text-align: center;
+    padding: 10px;
   }
 
-  .logo-ht, .tigre {
+  .logo-ht,
+  .tigre {
+    width: 120px;
     margin: 10px auto;
-    width: 150px;
   }
 
   .container h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
+    margin-top: 10px;
+  }
+
+  .img1 {
+    max-width: 90%;
+    margin: 10px auto;
   }
 
   .destaque {
     flex-direction: column;
     align-items: center;
+    padding: 10px;
   }
 
-  .botao-whatsapp {
+  .botao-whatsapp,
+  .botao-comprar {
     margin-left: 0;
     align-self: center;
   }
 
-  .img1 {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-  .carrossel-container {
-    flex-direction: column;
-    align-items: center;
+  .navbar a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 16px;
   }
 
   .carrossel {
     width: 90%;
   }
 
+  .maps {
+    font-size: 1.3em;
+  }
 }
